@@ -96,22 +96,13 @@
     // // Prettify the train start
     var trnStartPretty = moment.unix(trnStart).format("HH:mm");
   
-    // // Calculate the months worked using hardcore math
-    // // To calculate the months worked
-    // var trnNext = moment().diff(moment(trnStart, "X"), "minutes");
-    // console.log(trnNext);
-  
-    // // Calculate the total billed frequency
-    // var trnBilled = trnMonths * trnFrequency;
-    // console.log(trnBilled);
-  
     // Create the new row
     var newRow = $("<tr>").append(
       $("<td>").text(trnName),
       $("<td>").text(trnDestination),
-      $("<td align='center'>").text(trnFrequency),
+      $("<td>").text(trnFrequency + "  minutes"),
       $("<td>").text (trnStartPretty),
-      $("<td>").text(tMinutesTillTrain),
+      $("<td>").text(tMinutesTillTrain+ "  minutes"),
       $("<td>").text(moment(nextTrain).format("HH:mm"))
       
     );

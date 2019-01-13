@@ -23,14 +23,14 @@ In this assignment, you'll create a train schedule application that incorporates
 
 ### Make sure that your app suits this basic spec:'
 
-+ [ ] When adding trains, administrators should be able to submit the following:
++ [X] When adding trains, administrators should be able to submit the following:
 
-+ [ ] Train Name
-+ [ ] Destination
-+ [ ] First Train Time = in military time
-+ [ ] Frequency = in minutes
++ [X] Train Name
++ [X] Destination
++ [X] First Train Time = in military time
++ [X] Frequency = in minutes
 
-+ [ ] Code this app to calculate when the next train will arrive; this should be relative to the current time.
++ [X] Code this app to calculate when the next train will arrive; this should be relative to the current time.
 
 + [ ] Users from many different machines must be able to view same train times.
 + [ ] Styling and theme are completely up to you. Get Creative!

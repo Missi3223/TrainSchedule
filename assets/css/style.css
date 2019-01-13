@@ -3,3 +3,16 @@ td {
   display: inline-block;
   width: 16.575%;
 }
+
+.jumbotron {
+  font-family: 'Raleway', sans-serif
+}
+
+
+.card-header{
+  font-family: 'Raleway', sans-serif;
+}
+
+td{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
