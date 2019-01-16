@@ -20,19 +20,21 @@
 <div class="container">
 
     <!-- Jumbotron -->
-    <div class="jumbotron" style="background-color: black; color: white">
+    <div class="jumbotron" style= "background-image: url(assets/images/backGround.jpg)">
+      
         <h1 class="text-center">Train Schedule</h1>
         <h3 class="text-center">Current Train Schedules</h3>
+     
     </div>
 
-    <div class="row">
+    <div class="row"style="overflow-x:auto;">
 
       <div class="col-md-12">
 
         <!-- Current trains-->
         <div class="card mb-4">
-          <div class="card-header">Current Train Schedule</div>
-          <div class="card-body">
+          <div class="card-header">Current Train Schedule<button class="btn btn-primary float-right" id="update">Update</button></div>
+          <div class="card-body"style="overflow-x:auto;">
             <table class="table table-sm table-hover" id='train-table'>
               <thead>
                 <tr>
@@ -52,7 +54,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row"style="overflow-x:auto;">
       <div class="col-md-12">
         <!-- Add Add Train Inforamtion  -->
         <div class="card mb-4">

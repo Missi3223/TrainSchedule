@@ -1,5 +1,6 @@
 // Initialize Firebase
-
+$("#update") .on("click", function(){document.location.reload(true);
+})
   var config = {
     apiKey: "AIzaSyBsCbFCxm5MNwPrmEmOYv82PkCP9wToo0Y",
     authDomain: "train-schedule-85c98.firebaseapp.com",
@@ -106,7 +107,9 @@
       $("<td>").text(moment(nextTrain).format("HH:mm"))
       
     );
+    
   
     // Append the new row to the table
     $("#train-table > tbody").append(newRow);
   }); 
+  
